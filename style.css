@@ -1,0 +1,11 @@
+.bg-dark {
+    background-color: #343a40!important;
+    color: white;
+   justify-content: space-around;
+   font-size: 50px;
+}
+
+.col-lg-2 {
+    background: lightgray;
+}
+
