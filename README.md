@@ -7,4 +7,4 @@ Search for a city you would like to know the weather of. Powered by jQuery via O
 
 See the deployed application here:
 
- https://tcauley91.github.io/Unit-06-Server-Side-APIs-Homework-Weather-Dashboard/.
+ https://tcauley91.github.io/Unit-06-Server-Side-APIs-Homework-Weather-Dashboard/
