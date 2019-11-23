@@ -40,7 +40,7 @@
     let city =  $("<div>").html("<h5>" + response.name + moment().format(" L ")).append(img);
     let temp = $("<div>").text("Tepmprature (F) " + response.main.temp);
     let humidity = $("<div>").text("Humidity: " + response.main.humidity);
-    let wind = $("<div>").text("Wind Speed: " + response.wind.speed);
+    let wind = $("<div>").text("Wind Speed: " + response.wind.speed + " MPH");
     let tempF = (response.main.temp - 273.15) * 1.80 + 32;
     $(".tempf").text("Temperature (Kelvin) " + tempF);
 
@@ -49,6 +49,7 @@
     card.append(content);
     $(".col-lg-8").prepend(card);
 
+    $("#city-input").val("");
 
 });
 
