@@ -22,8 +22,6 @@
         method: "GET"
       })
 
-      // For each to generate previous searched city.
-
 
 // store all retreived data in an object called "response"
 
